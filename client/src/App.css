@@ -1,0 +1,83 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: aliceblue;
+  width: 500px;
+  margin: 50px auto;
+  padding: 10px;
+  border-radius: 8px;
+
+}
+
+.App h1 {
+  text-align: center;
+}
+
+.form {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.form input[type="text"] {
+  padding: 10px;
+  width: 85%;
+  border: 1px solid #eee;
+  border-radius: 6px;
+}
+
+.form input[type="text"]:focus {
+  outline: none;
+}
+
+.form button[type="submit"]:focus {
+  outline: none;
+}
+
+.form button[type="submit"] {
+  background-color: #008080;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.todo-listItems {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.todo-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.item-content {
+  width: 70%;
+}
+
+.todo-item button {
+  border: none;
+  border-radius: 6px;
+  padding: 6px;
+  cursor: pointer;
+}
+
+.todo-item button:focus {
+  outline: none;
+}
+
+.item-update {
+  background-color: goldenrod;
+}
+
+.item-delete {
+  background-color: red;
+  color: #fff;
+}
